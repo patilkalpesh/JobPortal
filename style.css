@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+    font-family: "Lucida Console";
+}
+#nav-bar
+{
+    position: sticky;
+    top:0;
+    z-index:10;
+
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#fafafa,#a7f0fa);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 48px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: blanchedalmond;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/* banner */
+#banner
+{
+    background-image:linear-gradient(to right,#acdaf0,#08a9c5) ;
+    color: #fff;
+    padding-top: 5%;
+}
+.img-fluid
+{
+    margin-top: 20px;
+    height: 100px;
+}
+.normal
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 75px;
+    color: black;
+    font-weight: 500;
+}
+.promo-title
+{
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/* Services */
+
+#services
+{
+    padding: 80px 0;
+
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services
+{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    margin-left: auto;
+    margin-right: auto;
+    background: #a517ba;
+    height: 3px;
+    width: 250px;
+    display: block;
+    transform: translateY(63px);
+    
+}
+
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#5760d6,#08a9c5) ;
+}
+
+/* About Us */
+
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 150px;
+}
+#about-us ul li
+{
+   margin: 10px 0;
+}
+#about-us ul 
+{
+   margin-left: 20px;
+}
+
+/* test
+ */
+
+ #testimonials
+ {
+     margin: 100px 0;
+ }
+ .testimonials
+ {
+     border-left: 4px solid #7b1798;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
+ }
+
+ .testimonials img{
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     margin: 0 10px;
+ }
+ .user-details
+ {
+     display: inline-block;
+     font-size: 12px;
+
+ }
+
+ /* social */
+
+ #social-media
+ {
+     background: #f8f9fa;
+ }
+ .social-media p
+ {
+     font-size: 40px;
+     font-weight: 600;
+     margin-bottom: 30px;
+ }
+ .social-icon
+ {
+     width: 50px;
+     transition:0.5s;
+ }
+ .social-icons
+ {
+     
+     margin-left: 5px;
+     display: inline-block;
+ }
+ .social-icons a:hover img
+ {
+     transform:translateY(-10px);
+ }
+
+ /* footer */
+
+ #footer
+ {
+    background-image:linear-gradient(to right,#fafafa,#a7f0fa) ;
+    color: rgb(17, 17, 17);
+ }
+ .footer-box
+ {
+     padding: 20px;
+ }
+ .footer-box img
+ {
+     width: 40px;
+     height: 40px;
+     margin-bottom: 5px;
+ }
+ .footer-box .fa
+ {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+
+ }
+ .footer-box .form-control
+ {
+     box-shadow: none !important;
+     border: none;
+     border-radius: 0;
+    
+     margin-top: 25px;
+     max-width: 250px;
+ }
+ .footer-box .btn-primary
+ {
+     box-shadow: none !important;
+     border: none;
+     border-radius: 0;
+    
+     margin-top: 30px;
+ }
+
+ hr
+ {
+     background-color: #fff;
+ }
+ .copyright
+ {
+     margin-bottom: 0;
+     padding-bottom: 20px;
+     text-align: center;
+ }
+
+ /* card */
+#cards
+{
+    margin-top: 40px;
+}
+ .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,75);
+    
+ }
+
+.card
+{
+    display: inline-block;
+}
+.carding
+{
+    margin-top: 60px;
+}
+.carding .btn-primary
+{
+    width: 30%;
+    text-align: center;
+    margin: 5px 5px;
+}
