@@ -1,0 +1,5 @@
+login for user, admin.
+withdraw application.
+admins can add new jobs.
+display all applicant details to the admin.
+
